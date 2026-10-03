@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1941C2BCBB1357482225FCD4 /* IllustrationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFD1E09E2607969DFB42CFD /* IllustrationPath.swift */; };
+		20C14971A398BC89B5DCB50B /* RoxyIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078CFB8BA0C200F7895DA26B /* RoxyIllustration.swift */; };
 		6648800005BF35CBB27A3F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969077B1C336950A24B6223D /* Assets.xcassets */; };
 		7B0719B023F49AABC60F9D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6345E73472D1C3DB293DEE /* ContentView.swift */; };
 		7F4D7927EF4EB043B25E2DB5 /* RoxyShapesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EB14BFAE5388FC12AB6196 /* RoxyShapesApp.swift */; };
+		D94E9D890816414CDA83E69D /* RoxyPortraitDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0BA964FB03C0D74248B37 /* RoxyPortraitDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		078CFB8BA0C200F7895DA26B /* RoxyIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoxyIllustration.swift; sourceTree = "<group>"; };
 		0B6345E73472D1C3DB293DEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EFD1E09E2607969DFB42CFD /* IllustrationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustrationPath.swift; sourceTree = "<group>"; };
 		74EB14BFAE5388FC12AB6196 /* RoxyShapesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoxyShapesApp.swift; sourceTree = "<group>"; };
 		969077B1C336950A24B6223D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFC0BA964FB03C0D74248B37 /* RoxyPortraitDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoxyPortraitDetails.swift; sourceTree = "<group>"; };
 		EB4AAC3840844C44087D8543 /* RoxyShapes.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RoxyShapes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -41,6 +47,9 @@
 			isa = PBXGroup;
 			children = (
 				0B6345E73472D1C3DB293DEE /* ContentView.swift */,
+				0EFD1E09E2607969DFB42CFD /* IllustrationPath.swift */,
+				078CFB8BA0C200F7895DA26B /* RoxyIllustration.swift */,
+				BFC0BA964FB03C0D74248B37 /* RoxyPortraitDetails.swift */,
 				74EB14BFAE5388FC12AB6196 /* RoxyShapesApp.swift */,
 			);
 			path = Sources;
@@ -117,6 +126,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B0719B023F49AABC60F9D98 /* ContentView.swift in Sources */,
+				1941C2BCBB1357482225FCD4 /* IllustrationPath.swift in Sources */,
+				20C14971A398BC89B5DCB50B /* RoxyIllustration.swift in Sources */,
+				D94E9D890816414CDA83E69D /* RoxyPortraitDetails.swift in Sources */,
 				7F4D7927EF4EB043B25E2DB5 /* RoxyShapesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,8 +141,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "洛琪希";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -148,8 +160,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "洛琪希";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
