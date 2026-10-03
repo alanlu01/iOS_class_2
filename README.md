@@ -6,6 +6,10 @@
   <img src="Deliverables/roxy-v2.png" alt="洛琪希 SwiftUI 形狀繪圖，新版 iPhone 模擬器截圖" width="350">
 </p>
 
+## Medium 文章
+
+[02 用形狀創作圖案 洛琪希](Deliverables/Medium-article.md)：可直接貼到 Medium 的作業文章，包含成果圖、圖層安排、程式碼片段與製作心得。
+
 ## 作業內容
 
 - 使用 Circle、Ellipse、Capsule、Rectangle、RoundedRectangle 與自訂 Shape。
